@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floatingpaper"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:paddingTop="20dp"
+    android:background="#ffa0a0ff">
+
+        <!-- 투명도 조절막대-->
+        <SeekBar
+            android:id="@+id/opacitycontroler"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <!-- 초기화 아이콘-->
+        <ImageView
+            android:id="@+id/resetbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reset"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+
+        <!-- 크기조절 아이콘-->
+        <ImageView
+            android:id="@+id/edge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/edge"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+</RelativeLayout>

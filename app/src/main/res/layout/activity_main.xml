@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 온오프 창 텍스트-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="paper setting"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <!-- 온 버튼-->
+    <Button
+        android:id="@+id/onbutton"
+        android:text="ON"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"/>
+
+    <!-- 오프 버튼-->
+    <Button
+        android:id="@+id/offbutton"
+        android:text="OFF"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>
